@@ -14,3 +14,40 @@ button{
 .bg-pink{
 	background-color:pink;
 }
+
+#main{
+    width: 1250px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-4{
+    width: 20%;
+}
+
+.col-8{
+    width: 80%;
+}
+
+.col-4 >div{
+    padding: 20px;
+    margin: 10px;
+}
+
+.col-8 >div{
+    padding: 20px;
+    margin: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+select{
+    width: 100%;
+}
+
+#state-title,#city-title,#landmark-title{
+    font-size: 1.3rem;
+    font-weight: 600;
+}
